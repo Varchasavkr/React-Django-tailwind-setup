@@ -2,7 +2,7 @@ import './App.css';
 import { useState, useEffect } from "react";
 import axios from "axios";
 function App() {
-  const pair='extras';
+  const pair='extrasasa';
   const [students, setStudents] = useState([])
   useEffect(()=>{
     async function getAllStudent(){
